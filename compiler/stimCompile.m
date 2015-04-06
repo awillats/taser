@@ -1,13 +1,11 @@
 %% TO DO
 %{
 -improve ordering (display how many left?
--display compiled results
--turn these into functions??
 %}
-
 clear
 
-D = dir;
+dirToCompile = 'superSlim';
+D = dir(dirToCompile);
 allNames = {D.name};
 isDir = [D.isdir];
 allSuperDirNames = allNames(find(isDir));
