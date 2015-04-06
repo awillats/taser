@@ -1,2 +1,4 @@
 stimCompileCheck - check and plot
 defaults for pulse block hiLowLen
+
+25e3 sample freq
